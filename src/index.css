@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@keyframes spin-button {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 180deg;
+  }
+}
+
+.spin-button {
+  animation: spin-button 0.5s ease-in-out;
+}
