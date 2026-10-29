@@ -10,7 +10,6 @@ export interface InputCurrencyProps {
   value: string;
   onChange: (e: ChangeEvent<HTMLInputElement>) => void;
   lang: string;
-  exchangeRate?: number;
 }
 
 export interface CustomCurrencyProps {
