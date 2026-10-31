@@ -73,6 +73,7 @@ export default function CurrencyConverter() {
     const value = e.target.value;
 
     if (value === "") {
+      setCustomRate("");
       setValue1("");
       setValue2("");
       return;
